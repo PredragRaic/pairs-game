@@ -1,0 +1,63 @@
+.main-div{
+    background-color: aqua;
+    width: 100vw;
+    height: 100vh;
+}
+.title h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    padding: 20px;
+    font-size: 30px;
+    color: aliceblue;
+}
+.title h3{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+    padding: 20px;
+}
+#timer{
+    text-align: center;
+    color: aliceblue;
+    font-size: 50px;
+    padding: 30px;
+}
+.cards-holder{
+    /* background-color: rgb(116, 241, 239); */
+    width: 80%;
+    height: 60%;
+    /* border: 1px solid gray; */
+    margin: 0 auto;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.card{
+    background-color: white;
+    width: 18%;
+    height: 45%;
+    box-shadow: 5px 5px 5px yellowgreen;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+
+.cover-card{
+    width: 100%;
+    height: 100%;
+    background-image: url('/img/cover-card.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 15px;
+    display: block;
+    pointer-events: none;
+    opacity: 1;
+}
